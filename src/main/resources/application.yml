@@ -1,0 +1,15 @@
+#spring.application.name=Oauth2
+#server.port=8090
+server:
+  port: 8090
+
+spring:
+  application:
+    name: Oauth2
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv23li1J1y8X5HZoZfsX
+            client-secret: 22ff4f09781877b24c13e4be78d55f53f023ffc1
